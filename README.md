@@ -1,12 +1,12 @@
 # Morphism Analysis and Evidence Documentation Platform
 
-Standalone Python 3.10 desktop application for inspecting, querying, visualizing, and documenting morphism-comparison and morphism-arrangement artifacts produced by the **Embedding Manifolds as Semantic Morphisms** pipeline.
+Standalone Python 3.10 desktop application for inspecting, querying, visualizing, and documenting morphism comparisons and semantic transition graphlet and graphlet field artifacts produced by the **Embedding Manifolds as Semantic Morphisms** pipeline.
 
-The application is designed for research review, grant-methods development, and evidence documentation. It opens compact/enriched pipeline artifacts directly and provides views for moving from millions of retained morphism matches to inspectable examples, collection-level arrangement profiles, ROC-style evaluation, and shape-bin field characterization.
+The application is designed for research review, and evidence documentation. It opens compact enriched pipeline artifacts directly and provides views for moving from millions of retained graphlet matches to inspectable examples, collection level arrangement profiles, ROC evaluation, and shape bin field characterization.
 
 ## Repository role
 
-This application is the analysis and evidence layer for the morphism pipeline. It is not the OCR ingest system and it does not rebuild the pipeline’s embedding/clustering artifacts. Instead, it loads saved analysis products and companion artifacts such as:
+This application is the analysis and evidence layer for the semantic transition graphlet pipeline. It is not the OCR ingest system and it does not rebuild the pipeline’s embedding or clustering artifacts. Instead, it loads saved analysis products and companion artifacts such as:
 
 - `morphism_comparison.pkl`
 - `document_delta_dict.pkl`
