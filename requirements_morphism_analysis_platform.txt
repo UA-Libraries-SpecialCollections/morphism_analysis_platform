@@ -1,3 +1,13 @@
+# Morphism Analysis and Evidence Documentation Platform
+# Python 3.10 recommended.
+# Tkinter is used for the desktop GUI and is normally bundled with Python on Windows.
+# On some Linux systems install the OS package separately, e.g. python3-tk.
+
 numpy>=1.23
 matplotlib>=3.6
 pandas>=1.5
+
+# Required for Edge Match 3D point-cloud reconstruction and residual/anchored views.
+# This dependency will install an appropriate PyTorch build unless one is already present.
+# For CUDA acceleration, install a torch build compatible with the local CUDA environment.
+sentence-transformers>=2.2
