@@ -107,6 +107,11 @@ Rows can be exported as CSV/TSV and can be opened in the evidence browser or Edg
 
 The plot-cache graph views restore compact 3D match-field summaries from enriched `morphism_comparison.pkl` payloads.
 
+<img
+  src="figures/collection_points.png"
+  width="900"
+/>
+
 Supported views include:
 
 - retained match count field
@@ -154,6 +159,11 @@ Packets can be exported as Markdown or JSON for presentation, publication, propo
 ### 5. Edge Match 3D
 
 The Edge Match 3D tab renders one selected retained match as an inspectable two-document morphism diagram.
+
+<img
+  src="figures/hi_aligned_low_lex_low_res_doc_emb.png"
+  width="900"
+/>
 
 Workflow:
 
@@ -261,6 +271,11 @@ Representative edges are shown for the selected shape category.
 
 ### Membership heatmap and similar documents
 
+<img
+  src="figures/heatmap_shape_k_48_row_by_doc_id.png"
+  width="900"
+/>
+
 Shows documents by shape-category membership weight. The heatmap has:
 
 - shape bins on the X axis
@@ -284,9 +299,19 @@ A selected document can be used to list nearest documents by shape-membership si
 
 ### Document graph by shared shape membership
 
+<img
+  src="figures/document_gramp_by_shared_shape_membership.png"
+  width="900"
+/>
+
 Builds a top-k document graph where nodes are documents and edges represent similarity between document shape-membership profiles. This graph represents shared morphism-action composition rather than raw SBERT document proximity.
 
 ### Shape-category co-occurrence graph
+
+<img
+  src="figures/shape_co-occurrence_graph.png"
+  width="900"
+/>
 
 Builds a graph where nodes are shape bins and edges indicate co-occurrence in the same documents above the support threshold. This reveals bundles of morphism-action categories that tend to occur together.
 
@@ -302,6 +327,11 @@ This helps determine whether apparent substitutions among top shape IDs are geom
 
 ### Shape Bin Field workspace
 
+<img
+  src="figures/canonical_shape_vis.png"
+  width="900"
+/>
+
 Inspects a selected shape bin as a morphism field. It provides:
 
 - canonicalized morphism field visualization
@@ -310,6 +340,11 @@ Inspects a selected shape bin as a morphism field. It provides:
 - collection composition charts
 - member edge table
 - scientific report
+
+<img
+  src="figures/bin_feature_dist.png"
+  width="900"
+/>
 
 The workspace characterizes five scientifically valuable features:
 
@@ -325,6 +360,11 @@ Reports collection-level profiles, top shapes, dominant-shape distributions, col
 
 ### Collection ROC
 
+<img
+  src="figures/ROC_collection_rates_cos_48bins.png"
+  width="300"
+/>
+
 Evaluates whether representation domains recover collection labels. It includes:
 
 - one-vs-rest ROC curves for shape membership
@@ -332,12 +372,22 @@ Evaluates whether representation domains recover collection labels. It includes:
 - pairwise same-collection vs cross-collection ROC curves
 - similarity matrix correlation panels
 
+<img
+  src="figures/collection_profile_similarity_matrix.png"
+  width="900"
+/>
+
 Representation domains include, when available:
 
 - raw SBERT document cosine
 - manifold-residual document cosine
 - shape-membership cosine
 - shape-membership Jensen-Shannon similarity
+
+<img
+  src="figures/method_correlation.png"
+  width="900"
+/>
 
 The correlation panel compares document-pair similarity score vectors across representation domains using Pearson and Spearman correlations.
 
