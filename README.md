@@ -1,4 +1,4 @@
-# Morphism Analysis and Evidence Documentation Platform
+# Semantic Morphism Graph Analysis and Evidence Documentation Platform
 
 Standalone Python 3.10 desktop application for inspecting, querying, visualizing, and documenting morphism comparisons and semantic transition graphlet and graphlet field artifacts produced by the **Embedding Manifolds as Semantic Morphisms** pipeline.
 
