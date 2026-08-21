@@ -4,6 +4,8 @@ Standalone Python 3.10 desktop application for inspecting, querying, visualizing
 
 The application is designed for research review, and evidence documentation. It opens compact enriched pipeline artifacts directly and provides views for moving from millions of retained graphlet matches to inspectable examples, collection level arrangement profiles, ROC evaluation, and shape bin field characterization.
 
+**Developer:** Jeremiah Colonna-Romano, University of Alabama Libraries Digital Services, 2025-2026
+
 ## Repository role
 
 This application is the analysis and evidence layer for the semantic transition graphlet pipeline. It is not the OCR ingest system and it does not rebuild the pipeline’s embedding or clustering artifacts. Instead, it loads saved analysis products and companion artifacts such as:
